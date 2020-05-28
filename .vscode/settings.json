@@ -1,0 +1,6 @@
+{
+    "eslint.nodePath": "",
+    "eslint.options": {
+        "configFile": "D:/JS/excel-course/src/.eslintrc"
+    }
+}

@@ -11,7 +11,10 @@ function toCell(content) {
 
 function toColumn(col) {
   return `
-    <div class="column">${col}</div>
+    <div class="column">
+      ${col}
+      <div class="col-resize"></div>
+    </div>
   `
 }
 
@@ -23,14 +26,6 @@ function createRow(index, content) {
     </div>
   `
 }
-// function createColumn(content) {
-//   return `
-//     <div class="row">
-//       <div class="row-info">${content}</div>
-//       <div class="row-data"></div>
-//     </div>
-//   `
-// }
 
 function toChar(_, index) {
   return String.fromCharCode(CODES.A + index)
